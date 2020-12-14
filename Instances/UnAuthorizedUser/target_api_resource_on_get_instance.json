@@ -1,0 +1,286 @@
+{
+    "request": {
+        "allowRedirects": true,
+        "body": null,
+        "cert": null,
+        "headers": {
+            "Accept": "application/json, */*",
+            "Content-Type": "application/json",
+            "Private-Token": "",
+            "User-Agent": "RESTinstance/1.0.3.dev1"
+        },
+        "method": "GET",
+        "netloc": "gitlab.com",
+        "path": "/api/v4/projects/<your private gitlab username>%2Ftarget-project",
+        "proxies": {},
+        "query": {},
+        "scheme": "https",
+        "sslVerify": true,
+        "timeout": [
+            null,
+            null
+        ],
+        "timestamp": {
+            "local": "2020-09-04T17:46:05.446663+03:00",
+            "utc": "2020-09-04T14:46:05.446663+00:00"
+        },
+        "url": "https://gitlab.com/api/v4/projects/<your private gitlab username>%2Ftarget-project"
+    },
+    "response": {
+        "body": {
+            "message": "404 Project Not Found"
+        },
+        "headers": {
+            "CF-Cache-Status": "DYNAMIC",
+            "CF-RAY": "5cd87f7a8faafe34-HEL",
+            "Cache-Control": "no-cache",
+            "Connection": "keep-alive",
+            "Content-Length": "35",
+            "Content-Type": "application/json",
+            "Date": "Fri, 04 Sep 2020 14:46:05 GMT",
+            "Expect-CT": "max-age=604800, report-uri=\"https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct\"",
+            "GitLab-LB": "fe-07-lb-gprd",
+            "GitLab-SV": "localhost",
+            "RateLimit-Limit": "600",
+            "RateLimit-Observed": "102",
+            "RateLimit-Remaining": "498",
+            "RateLimit-Reset": "1599230825",
+            "RateLimit-ResetTime": "Fri, 04 Sep 2020 14:47:05 GMT",
+            "Server": "cloudflare",
+            "Set-Cookie": "__cfduid=da6f5241ec8a58cd6054e510c92c10c221599230765; expires=Sun, 04-Oct-20 14:46:05 GMT; path=/; domain=.gitlab.com; HttpOnly; SameSite=Lax; Secure",
+            "Vary": "Origin",
+            "X-Content-Type-Options": "nosniff",
+            "X-Frame-Options": "SAMEORIGIN",
+            "X-Request-Id": "2M0v4K9RA7",
+            "X-Runtime": "0.019455",
+            "cf-request-id": "04fb2e00910000fe340a136200000001"
+        },
+        "seconds": 0.308652,
+        "status": 404
+    },
+    "schema": {
+        "$schema": "http://json-schema.org/draft-07/schema#",
+        "default": true,
+        "description": "UnAuthorizedUserTests: Gathering Instance While Reading Target Api Resource",
+        "examples": [],
+        "properties": {
+            "request": {
+                "properties": {
+                    "allowRedirects": {
+                        "type": "boolean"
+                    },
+                    "body": {
+                        "type": "null"
+                    },
+                    "cert": {
+                        "type": "null"
+                    },
+                    "headers": {
+                        "properties": {
+                            "Accept": {
+                                "type": "string",
+                                "enum": ["application/json, */*"]
+                            },
+                            "Content-Type": {
+                                "type": "string",
+                                "enum": ["application/json"]
+                            },
+                            "Private-Token": {
+                                "type": "string",
+                                "enum": [""]
+                            },
+                            "User-Agent": {
+                                "type": "string"
+                            }
+                        },
+                        "required": [
+                            "Accept",
+                            "Content-Type",
+                            "Private-Token",
+                            "User-Agent"
+                        ],
+                        "type": "object"
+                    },
+                    "method": {
+                        "type": "string"
+                    },
+                    "netloc": {
+                        "type": "string"
+                    },
+                    "path": {
+                        "type": "string"
+                    },
+                    "proxies": {
+                        "type": "object"
+                    },
+                    "query": {
+                        "type": "object",
+			            "properties": {
+			            },
+			            "additionalProperties": false
+                    },
+                    "scheme": {
+                        "type": "string"
+                    },
+                    "sslVerify": {
+                        "type": "boolean"
+                    },
+                    "timeout": {
+                        "items": {
+                            "type": "null"
+                        },
+                        "type": "array"
+                    },
+                    "timestamp": {
+                        "properties": {
+                            "local": {
+                                "type": "string"
+                            },
+                            "utc": {
+                                "type": "string"
+                            }
+                        },
+                        "required": [
+                            "local",
+                            "utc"
+                        ],
+                        "type": "object"
+                    },
+                    "url": {
+                        "type": "string",
+			            "pattern": "^https://gitlab.com/api/v4/projects"
+                    }
+                },
+                "type": "object"
+            },
+            "response": {
+                "properties": {
+                    "body": {
+                        "properties": {
+                            "message": {
+                                "default": "404 Project Not Found",
+                                "type": "string"
+                            }
+                        },
+                        "required": [
+                            "message"
+                        ],
+                        "additionalProperties": false,
+                        "type": "object"
+                    },
+                    "headers": {
+                        "properties": {
+                            "CF-Cache-Status": {
+                                "type": "string"
+                            },
+                            "CF-RAY": {
+                                "type": "string"
+                            },
+                            "Cache-Control": {
+                                "type": "string"
+                            },
+                            "Connection": {
+                                "type": "string"
+                            },
+                            "Content-Length": {
+                                "type": "string"
+                            },
+                            "Content-Type": {
+                                "type": "string"
+                            },
+                            "Date": {
+                                "type": "string"
+                            },
+                            "Expect-CT": {
+                                "type": "string"
+                            },
+                            "GitLab-LB": {
+                                "type": "string"
+                            },
+                            "GitLab-SV": {
+                                "type": "string"
+                            },
+                            "RateLimit-Limit": {
+                                "type": "string"
+                            },
+                            "RateLimit-Observed": {
+                                "type": "string"
+                            },
+                            "RateLimit-Remaining": {
+                                "type": "string"
+                            },
+                            "RateLimit-Reset": {
+                                "type": "string"
+                            },
+                            "RateLimit-ResetTime": {
+                                "type": "string"
+                            },
+                            "Server": {
+                                "type": "string"
+                            },
+                            "Set-Cookie": {
+                                "type": "string"
+                            },
+                            "Vary": {
+                                "type": "string"
+                            },
+                            "X-Content-Type-Options": {
+                                "type": "string"
+                            },
+                            "X-Frame-Options": {
+                                "type": "string"
+                            },
+                            "X-Request-Id": {
+                                "type": "string"
+                            },
+                            "X-Runtime": {
+                                "type": "string"
+                            },
+                            "cf-request-id": {
+                                "type": "string"
+                            }
+                        },
+                        "required": [
+                            "CF-Cache-Status",
+                            "CF-RAY",
+                            "Cache-Control",
+                            "Connection",
+                            "Content-Length",
+                            "Content-Type",
+                            "Date",
+                            "Expect-CT",
+                            "GitLab-LB",
+                            "GitLab-SV",
+                            "RateLimit-Limit",
+                            "RateLimit-Observed",
+                            "RateLimit-Remaining",
+                            "RateLimit-Reset",
+                            "RateLimit-ResetTime",
+                            "Server",
+                            "Set-Cookie",
+                            "Vary",
+                            "X-Content-Type-Options",
+                            "X-Frame-Options",
+                            "X-Request-Id",
+                            "X-Runtime",
+                            "cf-request-id"
+                        ],
+                        "additionalProperties": false,
+                        "type": "object"
+                    },
+                    "seconds": {
+                        "type": "number"
+                    },
+                    "status": {
+                        "type": "integer",
+                        "const": 404
+                    }
+                },
+                "type": "object"
+            }
+        },
+        "title": "GET https://gitlab.com/api/v4/projects/<your private gitlab username>%2Ftarget-project",
+        "type": "object"
+    },
+    "spec": {}
+}

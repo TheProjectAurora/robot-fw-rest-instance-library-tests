@@ -1,0 +1,169 @@
+{}
+{"name": null}
+{"name": []}
+{"name": [1, 2, 3]}
+{"name":true}
+{"name":false}
+{"name":{}}
+{"name":{"key": "value"}}
+{"name":0}
+{"name":-1}
+{"name":1}
+{"name":100.0}
+{"name":"valid string"}
+{"description": null}
+{"description": []}
+{"description": [1, 2, 3]}
+{"description":true}
+{"description":false}
+{"description":{}}
+{"description":{"key": "value"}}
+{"description":0}
+{"description":-1}
+{"description":1}
+{"description":100.0}
+{"description":"valid string"}
+{"name": null,"description": null}
+{"name": null,"description": []}
+{"name": null,"description": [1, 2, 3]}
+{"name": null,"description":true}
+{"name": null,"description":false}
+{"name": null,"description":{}}
+{"name": null,"description":{"key": "value"}}
+{"name": null,"description":0}
+{"name": null,"description":-1}
+{"name": null,"description":1}
+{"name": null,"description":100.0}
+{"name": null,"description":"valid string"}
+{"name": [],"description": null}
+{"name": [],"description": []}
+{"name": [],"description": [1, 2, 3]}
+{"name": [],"description":true}
+{"name": [],"description":false}
+{"name": [],"description":{}}
+{"name": [],"description":{"key": "value"}}
+{"name": [],"description":0}
+{"name": [],"description":-1}
+{"name": [],"description":1}
+{"name": [],"description":100.0}
+{"name": [],"description":"valid string"}
+{"name": [1, 2, 3],"description": null}
+{"name": [1, 2, 3],"description": []}
+{"name": [1, 2, 3],"description": [1, 2, 3]}
+{"name": [1, 2, 3],"description":true}
+{"name": [1, 2, 3],"description":false}
+{"name": [1, 2, 3],"description":{}}
+{"name": [1, 2, 3],"description":{"key": "value"}}
+{"name": [1, 2, 3],"description":0}
+{"name": [1, 2, 3],"description":-1}
+{"name": [1, 2, 3],"description":1}
+{"name": [1, 2, 3],"description":100.0}
+{"name": [1, 2, 3],"description":"valid string"}
+{"name":true,"description": null}
+{"name":true,"description": []}
+{"name":true,"description": [1, 2, 3]}
+{"name":true,"description":true}
+{"name":true,"description":false}
+{"name":true,"description":{}}
+{"name":true,"description":{"key": "value"}}
+{"name":true,"description":0}
+{"name":true,"description":-1}
+{"name":true,"description":1}
+{"name":true,"description":100.0}
+{"name":true,"description":"valid string"}
+{"name":false,"description": null}
+{"name":false,"description": []}
+{"name":false,"description": [1, 2, 3]}
+{"name":false,"description":true}
+{"name":false,"description":false}
+{"name":false,"description":{}}
+{"name":false,"description":{"key": "value"}}
+{"name":false,"description":0}
+{"name":false,"description":-1}
+{"name":false,"description":1}
+{"name":false,"description":100.0}
+{"name":false,"description":"valid string"}
+{"name":{},"description": null}
+{"name":{},"description": []}
+{"name":{},"description": [1, 2, 3]}
+{"name":{},"description":true}
+{"name":{},"description":false}
+{"name":{},"description":{}}
+{"name":{},"description":{"key": "value"}}
+{"name":{},"description":0}
+{"name":{},"description":-1}
+{"name":{},"description":1}
+{"name":{},"description":100.0}
+{"name":{},"description":"valid string"}
+{"name":{"key": "value"},"description": null}
+{"name":{"key": "value"},"description": []}
+{"name":{"key": "value"},"description": [1, 2, 3]}
+{"name":{"key": "value"},"description":true}
+{"name":{"key": "value"},"description":false}
+{"name":{"key": "value"},"description":{}}
+{"name":{"key": "value"},"description":{"key": "value"}}
+{"name":{"key": "value"},"description":0}
+{"name":{"key": "value"},"description":-1}
+{"name":{"key": "value"},"description":1}
+{"name":{"key": "value"},"description":100.0}
+{"name":{"key": "value"},"description":"valid string"}
+{"name":0,"description": null}
+{"name":0,"description": []}
+{"name":0,"description": [1, 2, 3]}
+{"name":0,"description":true}
+{"name":0,"description":false}
+{"name":0,"description":{}}
+{"name":0,"description":{"key": "value"}}
+{"name":0,"description":0}
+{"name":0,"description":-1}
+{"name":0,"description":1}
+{"name":0,"description":100.0}
+{"name":0,"description":"valid string"}
+{"name":-1,"description": null}
+{"name":-1,"description": []}
+{"name":-1,"description": [1, 2, 3]}
+{"name":-1,"description":true}
+{"name":-1,"description":false}
+{"name":-1,"description":{}}
+{"name":-1,"description":{"key": "value"}}
+{"name":-1,"description":0}
+{"name":-1,"description":-1}
+{"name":-1,"description":1}
+{"name":-1,"description":100.0}
+{"name":-1,"description":"valid string"}
+{"name":1,"description": null}
+{"name":1,"description": []}
+{"name":1,"description": [1, 2, 3]}
+{"name":1,"description":true}
+{"name":1,"description":false}
+{"name":1,"description":{}}
+{"name":1,"description":{"key": "value"}}
+{"name":1,"description":0}
+{"name":1,"description":-1}
+{"name":1,"description":1}
+{"name":1,"description":100.0}
+{"name":1,"description":"valid string"}
+{"name":100.0,"description": null}
+{"name":100.0,"description": []}
+{"name":100.0,"description": [1, 2, 3]}
+{"name":100.0,"description":true}
+{"name":100.0,"description":false}
+{"name":100.0,"description":{}}
+{"name":100.0,"description":{"key": "value"}}
+{"name":100.0,"description":0}
+{"name":100.0,"description":-1}
+{"name":100.0,"description":1}
+{"name":100.0,"description":100.0}
+{"name":100.0,"description":"valid string"}
+{"name":"valid string","description": null}
+{"name":"valid string","description": []}
+{"name":"valid string","description": [1, 2, 3]}
+{"name":"valid string","description":true}
+{"name":"valid string","description":false}
+{"name":"valid string","description":{}}
+{"name":"valid string","description":{"key": "value"}}
+{"name":"valid string","description":0}
+{"name":"valid string","description":-1}
+{"name":"valid string","description":1}
+{"name":"valid string","description":100.0}
+{"name":"valid string","description":"valid string"}

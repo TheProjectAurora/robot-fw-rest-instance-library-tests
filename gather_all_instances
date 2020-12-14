@@ -1,0 +1,5 @@
+# robot --include get_instance --pythonpath Libraries/ --pythonpath . --variablefile Libraries/RobotVariables.py -d Results Tests/GitLabApi/AuthorizedUserTests.robot
+robot --include get_instance --pythonpath Libraries/ --pythonpath . --variablefile Libraries/RobotVariables.py -d Results Tests/GitLabApi/UnAuthorizedUserTests.robot
+# robot --include get_instance --pythonpath Libraries/ --pythonpath . --variablefile Libraries/RobotVariables.py -d Results Tests/GitLabApi/
+
+

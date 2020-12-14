@@ -1,0 +1,3 @@
+# robot --include CI --pythonpath Libraries/ --pythonpath . -d Results --variablefile Libraries/RobotVariables.py -t "Authorized User provides <API Resource> making CREATE request against <Instance>" Tests/GitLabApi/AuthorizedUserTests.robot
+# robot --include CI --pythonpath Libraries/ --pythonpath . -d Results --variablefile Libraries/RobotVariables.py Tests/GitLabApi/UnAuthorizedUserTests.robot
+robot --include parameterized_api_resources --pythonpath Libraries/ --pythonpath . -d Results --variablefile Libraries/RobotVariables.py Tests/GitLabApi/

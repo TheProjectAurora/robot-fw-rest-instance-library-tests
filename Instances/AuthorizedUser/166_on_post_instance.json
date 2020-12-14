@@ -1,0 +1,441 @@
+{
+    "request": {
+        "allowRedirects": true,
+        "body": {
+            "description": -1,
+            "name": "valid string"
+        },
+        "cert": null,
+        "headers": {
+            "Accept": "application/json, */*",
+            "Content-Type": "application/json",
+            "Private-Token": "<your private gitlab api token>",
+            "User-Agent": "RESTinstance/1.0.3.dev1"
+        },
+        "method": "POST",
+        "netloc": "gitlab.com",
+        "path": "/api/v4/projects",
+        "proxies": {},
+        "query": {},
+        "scheme": "https",
+        "sslVerify": true,
+        "timeout": [
+            null,
+            null
+        ],
+        "timestamp": {
+            "local": "2020-09-04T16:31:36.340062+03:00",
+            "utc": "2020-09-04T13:31:36.340062+00:00"
+        },
+        "url": "https://gitlab.com/api/v4/projects"
+    },
+    "response": {
+        "body": {
+            "_links": {
+                "events": "https://gitlab.com/api/v4/projects/20936061/events",
+                "issues": "https://gitlab.com/api/v4/projects/20936061/issues",
+                "labels": "https://gitlab.com/api/v4/projects/20936061/labels",
+                "members": "https://gitlab.com/api/v4/projects/20936061/members",
+                "merge_requests": "https://gitlab.com/api/v4/projects/20936061/merge_requests",
+                "repo_branches": "https://gitlab.com/api/v4/projects/20936061/repository/branches",
+                "self": "https://gitlab.com/api/v4/projects/20936061"
+            },
+            "allow_merge_on_skipped_pipeline": null,
+            "archived": false,
+            "auto_cancel_pending_pipelines": "enabled",
+            "auto_devops_deploy_strategy": "continuous",
+            "auto_devops_enabled": false,
+            "autoclose_referenced_issues": true,
+            "avatar_url": null,
+            "build_coverage_regex": null,
+            "build_git_strategy": "fetch",
+            "build_timeout": 3600,
+            "builds_access_level": "enabled",
+            "can_create_merge_request_in": true,
+            "ci_config_path": "",
+            "ci_default_git_depth": 50,
+            "compliance_frameworks": [],
+            "container_expiration_policy": {
+                "cadence": "1d",
+                "enabled": true,
+                "keep_n": 10,
+                "name_regex": null,
+                "name_regex_keep": null,
+                "next_run_at": "2020-09-05T13:31:35.815Z",
+                "older_than": "90d"
+            },
+            "container_registry_enabled": true,
+            "created_at": "2020-09-04T13:31:35.797Z",
+            "creator_id": <your private gitlab user id number>,
+            "default_branch": null,
+            "description": "-1",
+            "emails_disabled": null,
+            "empty_repo": true,
+            "external_authorization_classification_label": "",
+            "forking_access_level": "enabled",
+            "forks_count": 0,
+            "http_url_to_repo": "https://gitlab.com/<your private gitlab username>/valid-string.git",
+            "id": 20936061,
+            "import_error": null,
+            "import_status": "none",
+            "issues_access_level": "enabled",
+            "issues_enabled": true,
+            "jobs_enabled": true,
+            "last_activity_at": "2020-09-04T13:31:35.797Z",
+            "lfs_enabled": true,
+            "merge_method": "merge",
+            "merge_requests_access_level": "enabled",
+            "merge_requests_enabled": true,
+            "name": "valid string",
+            "name_with_namespace": "<YourName YourSurname> / valid string",
+            "namespace": {
+                "avatar_url": "https://secure.gravatar.com/avatar/5f6691b98624a1464bad60c44bc88c00?s=80&d=identicon",
+                "full_path": "<your private gitlab username>",
+                "id": 8282582,
+                "kind": "user",
+                "name": "<YourName YourSurname>",
+                "parent_id": null,
+                "path": "<your private gitlab username>",
+                "web_url": "https://gitlab.com/<your private gitlab username>"
+            },
+            "only_allow_merge_if_all_discussions_are_resolved": false,
+            "only_allow_merge_if_pipeline_succeeds": false,
+            "open_issues_count": 0,
+            "owner": {
+                "avatar_url": "https://secure.gravatar.com/avatar/5f6691b98624a1464bad60c44bc88c00?s=80&d=identicon",
+                "id": <your private gitlab user id number>,
+                "name": "<YourName YourSurname>",
+                "state": "active",
+                "username": "<your private gitlab username>",
+                "web_url": "https://gitlab.com/<your private gitlab username>"
+            },
+            "packages_enabled": true,
+            "pages_access_level": "private",
+            "path": "valid-string",
+            "path_with_namespace": "<your private gitlab username>/valid-string",
+            "printing_merge_request_link_enabled": true,
+            "public_jobs": true,
+            "readme_url": null,
+            "remove_source_branch_after_merge": true,
+            "repository_access_level": "enabled",
+            "request_access_enabled": true,
+            "resolve_outdated_diff_discussions": false,
+            "runners_token": "Ua24EyY79EkeyDHyBTux",
+            "service_desk_address": "incoming+teddyteddy-valid-string-20936061-issue-@incoming.gitlab.com",
+            "service_desk_enabled": true,
+            "shared_runners_enabled": true,
+            "shared_with_groups": [],
+            "snippets_access_level": "enabled",
+            "snippets_enabled": true,
+            "ssh_url_to_repo": "git@gitlab.com:<your private gitlab username>/valid-string.git",
+            "star_count": 0,
+            "suggestion_commit_message": null,
+            "tag_list": [],
+            "visibility": "private",
+            "web_url": "https://gitlab.com/<your private gitlab username>/valid-string",
+            "wiki_access_level": "enabled",
+            "wiki_enabled": true
+        },
+        "headers": {
+            "CF-Cache-Status": "DYNAMIC",
+            "CF-RAY": "5cd8125b8e4cfe58-HEL",
+            "Cache-Control": "max-age=0, private, must-revalidate",
+            "Connection": "keep-alive",
+            "Content-Length": "3305",
+            "Content-Type": "application/json",
+            "Date": "Fri, 04 Sep 2020 13:31:36 GMT",
+            "Etag": "W/\"cfb2b62a34df5b6cd29c0dfbd8655a72\"",
+            "Expect-CT": "max-age=604800, report-uri=\"https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct\"",
+            "GitLab-LB": "fe-08-lb-gprd",
+            "GitLab-SV": "localhost",
+            "RateLimit-Limit": "600",
+            "RateLimit-Observed": "8",
+            "RateLimit-Remaining": "592",
+            "RateLimit-Reset": "1599226356",
+            "RateLimit-ResetTime": "Fri, 04 Sep 2020 13:32:36 GMT",
+            "Referrer-Policy": "strict-origin-when-cross-origin",
+            "Server": "cloudflare",
+            "Set-Cookie": "__cfduid=d0b1a427f6f257bb3c98f8d62ff6f0ddb1599226295; expires=Sun, 04-Oct-20 13:31:35 GMT; path=/; domain=.gitlab.com; HttpOnly; SameSite=Lax; Secure",
+            "Strict-Transport-Security": "max-age=31536000",
+            "Vary": "Origin",
+            "X-Content-Type-Options": "nosniff",
+            "X-Frame-Options": "SAMEORIGIN",
+            "X-Request-Id": "eeg7sIMJFd5",
+            "X-Runtime": "0.553547",
+            "cf-request-id": "04fae9cd370000fe58b096d200000001"
+        },
+        "seconds": 0.786941,
+        "status": 201
+    },
+    "schema": {
+        "$schema": "http://json-schema.org/draft-07/schema#",
+        "default": true,
+        "description": "AuthorizedUserTests: Gathering Instances While Creating Parameterized Api Resources",
+        "examples": [],
+        "properties": {
+            "request": {
+                "properties": {
+                    "allowRedirects": {
+                        "type": "boolean"
+                    },
+                    "body": {
+                        "properties": {
+                            "description": {
+                                "type": "integer",
+                                "const": -1
+                            },
+                            "name": {
+                                "type": "string",
+                                "const": "valid string"
+                            }
+                        },
+                        "required": [
+                            "description",
+                            "name"
+                        ],
+                        "type": "object"
+                    },
+                    "cert": {
+                        "type": "null"
+                    },
+                    "headers": {
+                        "properties": {
+                            "Accept": {
+                                "type": "string",
+                                "enum": ["application/json, */*"]
+                            },
+                            "Content-Type": {
+                                "type": "string",
+                                "enum": ["application/json"]
+                            },
+                            "Private-Token": {
+                                "type": "string",
+                                "enum": ["<your private gitlab api token>"]
+                            },
+                            "User-Agent": {
+                                "type": "string"
+                            }
+                        },
+                        "required": [
+                            "Accept",
+                            "Content-Type",
+                            "Private-Token",
+                            "User-Agent"
+                        ],
+                        "type": "object"
+                    },
+                    "method": {
+                        "type": "string"
+                    },
+                    "netloc": {
+                        "type": "string"
+                    },
+                    "path": {
+                        "type": "string"
+                    },
+                    "proxies": {
+                        "type": "object"
+                    },
+                    "query": {
+                        "type": "object",
+			            "properties": {
+			            },
+			            "additionalProperties": false
+                    },
+                    "scheme": {
+                        "type": "string"
+                    },
+                    "sslVerify": {
+                        "type": "boolean"
+                    },
+                    "timeout": {
+                        "items": {
+                            "type": "null"
+                        },
+                        "type": "array"
+                    },
+                    "timestamp": {
+                        "properties": {
+                            "local": {
+                                "type": "string"
+                            },
+                            "utc": {
+                                "type": "string"
+                            }
+                        },
+                        "required": [
+                            "local",
+                            "utc"
+                        ],
+                        "type": "object"
+                    },
+                    "url": {
+                        "type": "string",
+			            "const": "https://gitlab.com/api/v4/projects"
+                    }
+                },
+                "type": "object"
+            },
+            "response": {
+                "properties": {
+                    "body": {
+                        "properties": {
+                            "message": {
+                                "properties": {
+                                    "limit_reached": {
+                                        "const": [],
+                                        "type": "array"
+                                    },
+                                    "description": {
+                                        "const": [
+                                            "must be a non-empty string",
+                                            "can contain only letters, digits, emojis, '_', '.', dash, space. It must start with letter, digit, emoji or '_'."
+                                        ],
+                                        "items": {
+                                            "type": "string"
+                                        },
+                                        "type": "array"
+                                    },
+                                    "path": {
+                                        "const": [
+                                            "can't be blank",
+                                            "can contain only letters, digits, '_', '-' and '.'. Cannot start with '-', end in '.git' or end in '.atom'",
+                                            "is too short (minimum is 1 character)"
+                                        ],
+                                        "items": {
+                                            "type": "string"
+                                        },
+                                        "type": "array"
+                                    }
+                                },
+                                "required": [
+                                    "limit_reached",
+                                    "description",
+                                    "path"
+                                ],
+                                "additionalProperties": false,
+                                "type": "object"
+                            }
+                        },
+                        "required": [
+                            "message"
+                        ],
+                        "additionalProperties": false,
+                        "type": "object"
+                    },
+                    "headers": {
+                        "properties": {
+                            "CF-Cache-Status": {
+                                "type": "string"
+                            },
+                            "CF-RAY": {
+                                "type": "string"
+                            },
+                            "Cache-Control": {
+                                "type": "string"
+                            },
+                            "Connection": {
+                                "type": "string"
+                            },
+                            "Content-Length": {
+                                "type": "string"
+                            },
+                            "Content-Type": {
+                                "type": "string"
+                            },
+                            "Date": {
+                                "type": "string"
+                            },
+                            "Expect-CT": {
+                                "type": "string"
+                            },
+                            "GitLab-LB": {
+                                "type": "string"
+                            },
+                            "GitLab-SV": {
+                                "type": "string"
+                            },
+                            "RateLimit-Limit": {
+                                "type": "string"
+                            },
+                            "RateLimit-Observed": {
+                                "type": "string"
+                            },
+                            "RateLimit-Remaining": {
+                                "type": "string"
+                            },
+                            "RateLimit-Reset": {
+                                "type": "string"
+                            },
+                            "RateLimit-ResetTime": {
+                                "type": "string"
+                            },
+                            "Server": {
+                                "type": "string"
+                            },
+                            "Set-Cookie": {
+                                "type": "string"
+                            },
+                            "Vary": {
+                                "type": "string"
+                            },
+                            "X-Content-Type-Options": {
+                                "type": "string"
+                            },
+                            "X-Frame-Options": {
+                                "type": "string"
+                            },
+                            "X-Request-Id": {
+                                "type": "string"
+                            },
+                            "X-Runtime": {
+                                "type": "string"
+                            },
+                            "cf-request-id": {
+                                "type": "string"
+                            }
+                        },
+                        "required": [
+                            "CF-Cache-Status",
+                            "CF-RAY",
+                            "Cache-Control",
+                            "Connection",
+                            "Content-Length",
+                            "Content-Type",
+                            "Date",
+                            "Expect-CT",
+                            "GitLab-LB",
+                            "GitLab-SV",
+                            "RateLimit-Limit",
+                            "RateLimit-Observed",
+                            "RateLimit-Remaining",
+                            "RateLimit-Reset",
+                            "RateLimit-ResetTime",
+                            "Server",
+                            "Set-Cookie",
+                            "Vary",
+                            "X-Content-Type-Options",
+                            "X-Frame-Options",
+                            "X-Request-Id",
+                            "X-Runtime",
+                            "cf-request-id"
+                        ],
+                        "additionalProperties": false,
+                        "type": "object"
+                    },
+                    "seconds": {
+                        "type": "number"
+                    },
+                    "status": {
+                        "type": "integer",
+                        "const": 400
+                    }
+                },
+                "type": "object"
+            }
+        },
+        "title": "POST https://gitlab.com/api/v4/projects",
+        "type": "object"
+    },
+    "spec": {}
+}
